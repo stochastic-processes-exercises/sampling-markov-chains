@@ -6,9 +6,9 @@ In this exercise we are going to learn how to write a function that generates th
 
 As you can see from the sample code in `main.py` we can create a variable called `A` in python and set it equal to this matrix by using the code below:
 
-````
+```python
 A = np.array([[0.3,0.5,0.2],[0.3,0.4,0.3],[0.2,0.5,0.3]])
-````
+```
 
 Your task in this exercise is to write a function called `markov_move` that takes two arguments.  The first of these arguments, `trans`, should be the 1-step transition matrix for the Markov chain that is being simulated.  The second argument is then the current state `start` is the state that the system is currently within.  Your function should generate the next state in the chain.
 
